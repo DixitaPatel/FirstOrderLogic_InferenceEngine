@@ -5,7 +5,6 @@ Using first-order-logic to answer the query raised.
 **input.txt format**
 
 <NQ=NUMBEROFQUERIES>
-
 <QUERY1>
 
 <QUERYNQ>
