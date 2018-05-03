@@ -23,8 +23,7 @@ where:
 **Format for output.txt:**
 
 For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
-<ANSWER 1>
-…
+<ANSWER 1>...
 <ANSWER NQ>
 
 where, each answer should be either TRUE if you can prove that the corresponding query sentence is true given the knowledge base, or FALSE if you cannot.
@@ -33,33 +32,59 @@ where, each answer should be either TRUE if you can prove that the corresponding
 
 For this input.txt:
 6
+
 F(Joe)
+
 H(John)
+
 ~H(Alice)
+
 ~H(John)
+
 G(Joe)
+
 G(Tom)
+
 14
+
 ~F(x) | G(x)
+
 ~G(x) | H(x)
+
 ~H(x) | F(x)
+
 ~R(x) | H(x)
+
 ~A(x) | H(x)
+
 ~D(x,y) | ~H(y)
+
 ~B(x,y) | ~C(x,y) | A(x)
+
 B(John,Alice)
+
 B(John,Joe)
+
 ~D(x,y) | ~Q(y) | C(x,y)
+
 D(John,Alice)
+
 Q(Joe)
+
 D(John,Joe)
+
 R(Tom)
 
 **output.txt**  should be:
 
 FALSE
+
 TRUE
+
 TRUE
+
 FALSE
+
 FALSE
+
 TRUE
