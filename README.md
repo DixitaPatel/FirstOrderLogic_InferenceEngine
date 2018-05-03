@@ -5,12 +5,10 @@ Using first-order-logic to answer the query raised.
 **input.txt format**
 
 <NQ=NUMBEROFQUERIES>
-<QUERY1>
-...
+<QUERY1>...
 <QUERYNQ>
 <NS=NUMBER OF GIVEN SENTENCES IN THE KNOWLEDGEBASE>
-<SENTENCE1>
-...
+<SENTENCE1>...
 <SENTENCENS>
 where:
 
