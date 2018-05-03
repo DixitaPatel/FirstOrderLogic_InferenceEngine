@@ -4,18 +4,6 @@ Using first-order-logic to answer the query raised.
 
 **input.txt format**
 
-<NQ=NUMBEROFQUERIES>
-<QUERY1>
-
-<QUERYNQ>
-  
-<NS=NUMBER OF GIVEN SENTENCES IN THE KNOWLEDGEBASE>
-
-<SENTENCE1>
-
-<SENTENCENS>
-where:
-
 1. Each query will be a single literal of the form Predicate(Constant) or ~Predicate(Constant).
 2. Variables are all single lowercase letters.
 3. All predicates (such as Sibling) and constants (such as John) are case-sensitive alphabetical strings that begin with an uppercase letter.
@@ -24,12 +12,8 @@ where:
 
 **Format for output.txt:**
 
-For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
-<ANSWER 1>
-
-<ANSWER NQ>
-
-where, each answer should be either TRUE if you can prove that the corresponding query sentence is true given the knowledge base, or FALSE if you cannot.
+For each query, determine if that query can be inferred from the knowledge base or not, one query per line.
+Each answer should be either TRUE if you can prove that the corresponding query sentence is true given the knowledge base, or FALSE if you cannot.
 
 **Example 1:**
 
