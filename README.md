@@ -6,13 +6,13 @@ Using first-order-logic to answer the query raised.
 
 <NQ=NUMBEROFQUERIES>
 
-<QUERY1>...
+<QUERY1>
 
 <QUERYNQ>
   
 <NS=NUMBER OF GIVEN SENTENCES IN THE KNOWLEDGEBASE>
 
-<SENTENCE1>...
+<SENTENCE1>
 
 <SENTENCENS>
 where:
@@ -26,7 +26,7 @@ where:
 **Format for output.txt:**
 
 For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
-<ANSWER 1>...
+<ANSWER 1>
 
 <ANSWER NQ>
 
