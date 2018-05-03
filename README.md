@@ -5,10 +5,15 @@ Using first-order-logic to answer the query raised.
 **input.txt format**
 
 <NQ=NUMBEROFQUERIES>
+
 <QUERY1>...
+
 <QUERYNQ>
+  
 <NS=NUMBER OF GIVEN SENTENCES IN THE KNOWLEDGEBASE>
+
 <SENTENCE1>...
+
 <SENTENCENS>
 where:
 
@@ -22,6 +27,7 @@ where:
 
 For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
 <ANSWER 1>...
+
 <ANSWER NQ>
 
 where, each answer should be either TRUE if you can prove that the corresponding query sentence is true given the knowledge base, or FALSE if you cannot.
